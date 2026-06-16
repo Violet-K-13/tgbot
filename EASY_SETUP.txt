@@ -1,0 +1,1 @@
+1. Install Python\n2. Put token in config.py\n3. Double click start.bat\n
