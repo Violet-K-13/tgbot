@@ -12,9 +12,12 @@ from config import settings
 
 
 _TYPE_TO_CHANNEL = {
+CHANNELS = {
     "news": settings.CHANNEL_NEWS,
     "poll": settings.CHANNEL_POLL,
     "wish": settings.CHANNEL_WISH,
+    "club": settings.CHANNEL_CLUB,
+}
 }
 
 _TYPE_EMOJI = {"news": "📰", "poll": "📊", "wish": "💫"}
