@@ -11,7 +11,7 @@ from keyboards.kb import channel_report_kb
 from config import settings
 
 
-_TYPE_TO_CHANNEL = {
+CHANNELS = {
     "news": settings.CHANNEL_NEWS,
     "poll": settings.CHANNEL_POLL,
     "wish": settings.CHANNEL_WISH,
