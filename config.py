@@ -3,9 +3,7 @@ class Settings:
     BOT_TOKEN = "8715321934:AAEKizhyUypM7mZsnM0SC32u3JawSvMuh58"
     ADMIN_IDS = []
 settings = Settings()
-CHANNELS = {
-    "news": None,
-    "poll": None,
-    "wish": None,
-    "club": None,
-}
+CHANNEL_NEWS = 0
+CHANNEL_POLL = 0
+CHANNEL_WISH = 0
+CHANNEL_CLUB = 0
